@@ -1,11 +1,18 @@
 {application, quantile_estimator,
  [
-  {description, ""},
-  {vsn, "0.2.1"},
+  {description, "A quantile estimator written in Erlang"},
+  {vsn, "0.3.0"},
+  {licenses, ["MIT"]},
+  {ex_doc, [
+      {source_url, <<"https://github.com/deadtrickster/quantile_estimator">>},
+      {main, <<"README.md">>},
+      {extras, [<<"LICENSE">>]}
+  ]},
   {registered, []},
   {applications, [
                   kernel,
                   stdlib
                  ]},
-  {env, []}
+  {env, []},
+  {links, [{"Github", "https://github.com/deadtrickster/quantile_estimator"}]}
  ]}.
